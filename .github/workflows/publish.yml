@@ -20,6 +20,6 @@ jobs:
       - name: Build package
         run: npm run lib:build
       - name: Publish Package
-        run: npm publish dist/angular-feather
+        run: cd dist/angular-feather && npm publish
         env:
           NODE_AUTH_TOKEN: ${{secrets.NPM_CI_TOKEN}}
