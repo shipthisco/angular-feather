@@ -1,0 +1,25 @@
+name: Publish ShipthisCo Packages
+on: [ workflow_dispatch ]
+jobs:
+  build:
+    runs-on: ubuntu-latest
+    permissions:
+      contents: read
+      packages: write
+    steps:
+      - uses: actions/checkout@v2
+      - name: Steup Node Js
+        uses: actions/setup-node@v2.1.5
+        with:
+          node-version: '14'
+          registry-url: https://npm.pkg.github.com/
+      - name: Install
+        run: npm install
+      - name: setup global cli
+        run: sudo npm install -g @angular/cli
+      - name: Build package
+        run: npm run lib:build
+      - name: Publish Package
+        run: npm publish dist/angular-feather
+        env:
+          NODE_AUTH_TOKEN: ${{secrets.GIT_CI_TOKEN}}
