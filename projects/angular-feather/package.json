@@ -1,26 +1,14 @@
 {
-  "name": "@shipthisco/angular-feather",
+  "name": "snx-angular-feather",
   "version": "6.4.1",
-  "description": "Feather Icons components library for your Angular Applications",
+  "description": "Forked from Feather Icons by Michael Bazos  components library for your Angular Applications",
   "repository": {
     "type": "git",
-    "url": "https://github.com/shipthisco/angular-feather.git"
+    "url": "git+https://github.com/shipthisco/angular-feather.git"
   },
-  "publishConfig": {
-		"registry": "https://npm.pkg.github.com/@shipthisco"
-	},
   "keywords": [
-    "angular2",
-    "angular",
-    "feather",
-    "icons",
-    "svg",
-    "2",
-    "ui",
-    "components",
-    "library"
   ],
-  "author": "Michael Bazos",
+  "author": "Mayur Rawte",
   "license": "MIT",
   "bugs": {
     "url": "https://github.com/michaelbazos/angular-feather/issues"

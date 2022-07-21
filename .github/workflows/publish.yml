@@ -22,4 +22,4 @@ jobs:
       - name: Publish Package
         run: npm publish dist/angular-feather
         env:
-          NODE_AUTH_TOKEN: ${{secrets.GIT_CI_TOKEN}}
+          NODE_AUTH_TOKEN: ${{secrets.NPM_CI_TOKEN}}
