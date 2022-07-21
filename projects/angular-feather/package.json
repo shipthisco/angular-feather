@@ -1,5 +1,5 @@
 {
-  "name": "angular-feather",
+  "name": "@shipthisco/angular-feather",
   "version": "6.4.1",
   "description": "Feather Icons components library for your Angular Applications",
   "repository": {
