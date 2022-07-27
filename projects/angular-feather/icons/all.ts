@@ -1,5 +1,6 @@
 import { Activity } from './svg/activity';
 import { Airplay } from './svg/airplay';
+import { AirShipment } from './svg/air-shipment';
 import { AlertCircle } from './svg/alert-circle';
 import { AlertOctagon } from './svg/alert-octagon';
 import { AlertTriangle } from './svg/alert-triangle';
@@ -26,6 +27,7 @@ import { AtSign } from './svg/at-sign';
 import { Award } from './svg/award';
 import { BarChart2 } from './svg/bar-chart-2';
 import { BarChart } from './svg/bar-chart';
+import { Bank } from './svg/bank';
 import { BatteryCharging } from './svg/battery-charging';
 import { Battery } from './svg/battery';
 import { BellOff } from './svg/bell-off';
@@ -137,6 +139,7 @@ import { Info } from './svg/info';
 import { Instagram } from './svg/instagram';
 import { Italic } from './svg/italic';
 import { Key } from './svg/key';
+import { LandShipment} from './svg/land-shipment';
 import { Layers } from './svg/layers';
 import { Layout } from './svg/layout';
 import { LifeBuoy } from './svg/life-buoy';
@@ -207,6 +210,7 @@ import { Rss } from './svg/rss';
 import { Save } from './svg/save';
 import { Scissors } from './svg/scissors';
 import { Search } from './svg/search';
+import { SeaShipment } from './svg/sea-shipment';
 import { Send } from './svg/send';
 import { Server } from './svg/server';
 import { Settings } from './svg/settings';
@@ -288,6 +292,7 @@ import { ZoomOut } from './svg/zoom-out';
 export const allIcons = {
   Activity,
   Airplay,
+  AirShipment,
   AlertCircle,
   AlertOctagon,
   AlertTriangle,
@@ -314,6 +319,7 @@ export const allIcons = {
   Award,
   BarChart2,
   BarChart,
+  Bank,
   BatteryCharging,
   Battery,
   BellOff,
@@ -425,6 +431,7 @@ export const allIcons = {
   Instagram,
   Italic,
   Key,
+  LandShipment,
   Layers,
   Layout,
   LifeBuoy,
@@ -495,6 +502,7 @@ export const allIcons = {
   Save,
   Scissors,
   Search,
+  SeaShipment,
   Send,
   Server,
   Settings,
